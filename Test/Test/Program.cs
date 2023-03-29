@@ -10,6 +10,12 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            Animal ac = new Cat();
+            Console.WriteLine(ac.a);
+            ac.Sleep();
+            Cat c = new Cat();
+            c.Sleep();
+            Console.ReadKey();
         }
     }
 }
